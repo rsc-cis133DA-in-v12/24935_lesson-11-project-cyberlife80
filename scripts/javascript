@@ -1,0 +1,23 @@
+/*Author: Tremayne
+COURSE: CIS133DA
+SECTION: #24935*/
+
+//LastModified places a date and timestamp with every new update of information, Form submit allows the for to be submitted also show confirmation box, Form reset allows form to be reset also displays text after reset confirming reset.
+
+document.getElementById("lastmodified").innerHTML = document.lastModified;
+
+
+function formReset() {
+    document.getElementById("resetMessage").style.visibility = "visible";
+    document.getElementById("resetMessage").style.color = "red";
+
+
+}
+
+
+function formSubmit() {
+    alert('Thanks for submitting!')
+  }
+
+
+
